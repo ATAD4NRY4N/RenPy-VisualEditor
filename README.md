@@ -80,6 +80,27 @@ If the selected node is not a valid target (for example, an End node), the tool 
 - **UI Library**: Material-UI or Chakra UI
 - **Graph Visualization**: ReactFlow
 
+## Getting Started
+
+### Option 1: Using Docker (Recommended)
+
+See the [Configuration](#configuration) section below for Docker setup instructions.
+
+### Option 2: Without Docker (PowerShell Scripts)
+
+If you cannot use Docker due to company policy or other restrictions, you can run the application using PowerShell scripts instead. All scripts and documentation are in the **[PowerShell](./PowerShell)** folder.
+
+**Quick start:**
+```powershell
+# First-time setup
+.\PowerShell\setup-all.ps1
+
+# Run both backend and frontend
+.\PowerShell\start-dev.ps1
+```
+
+**Full documentation:** See [PowerShell/DOCKER_ALTERNATIVE.md](./PowerShell/DOCKER_ALTERNATIVE.md)
+
 ## Configuration
 
 The frontend expects API and WebSocket base URLs defined at build time via
